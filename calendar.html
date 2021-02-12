@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./node_modules\@dmuy\datepicker/dist/duDatepicker-theme.css" />
     <link rel="stylesheet" href="Style.css">
     <script src="./node_modules\@dmuy\datepicker\dist\duDatepicker.min.js"></script>
-    
+
 </head>
 <body>
     <div class="box2">
@@ -24,10 +24,32 @@
         <div class ="vox2">
         </div>
     </div>
-        <div class="lablebox">
-            <label for="calendar" class="banner">Calendar</label>
-            <input type="text" id="calendar" />
-        </div>
-    <script src="./script.js"></script>
+    <div class="lablebox">
+        <label for="calendar" class="banner">Calendar</label>
+        <input type="text" id="calendar" />
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyBHQEUf9z5UGKt66KD30lw1LrR51iXa4M4",
+        authDomain: "sigma-902a8.firebaseapp.com",
+        projectId: "sigma-902a8",
+        storageBucket: "sigma-902a8.appspot.com",
+        messagingSenderId: "334205006047",
+        appId: "1:334205006047:web:ebcb63bd586f90f0c4796a",
+        measurementId: "G-1XRCECH6T3",
+        databaseURL: "https://sigma-902a8-default-rtdb.europe-west1.firebasedatabase.app"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+      firebase.database();
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+    <script src="./calendar.js"></script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+{
+  "name": "sigma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calendar.js",
+  "dependencies": {
+    "@dmuy/datepicker": "^2.0.1-rc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akselss/Sigma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akselss/Sigma/issues"
+  },
+  "homepage": "https://github.com/Akselss/Sigma#readme"
+}
